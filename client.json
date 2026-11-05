@@ -1,0 +1,16 @@
+{
+  "client_id": "https://sergeylevin.github.io/grushka-byhelp-oauth-metadata/client.json",
+  "client_name": "GRUSHKA read-only reports",
+  "redirect_uris": [
+    "https://dev.promo-grushka.ru/grushka-oauth/callback.php"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "mcp:read offline_access"
+}
